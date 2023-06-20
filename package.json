@@ -5,10 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch -r dotenv/config src/index.ts",
-    "build": "tsc",
     "introspect": "drizzle-kit introspect:pg",
     "generate": "drizzle-kit generate:pg",
-    "start": "node dist/index.js",
     "migrate": "tsx -r dotenv/config src/migrate.ts"
   },
   "devDependencies": {
